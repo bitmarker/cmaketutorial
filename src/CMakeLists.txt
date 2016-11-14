@@ -1,0 +1,4 @@
+
+add_executable(${PROJECT_NAME} "${CMAKE_CURRENT_SOURCE_DIR}/main.c")
+
+install(TARGETS ${PROJECT_NAME} DESTINATION ${INSTALL_DIR})
